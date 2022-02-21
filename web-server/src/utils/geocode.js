@@ -1,5 +1,6 @@
 const request = require("request");
 
+
 const geocode = (adress, callback) => {
   //Isso aqui converte caractéres como ? em códigos. impedindo de crashar a aplicação.
   var adressURI = encodeURIComponent(adress);
